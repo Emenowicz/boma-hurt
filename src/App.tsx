@@ -1,13 +1,19 @@
 import React from 'react';
 import './App.css';
 import LandingPage from './components/LandingPage';
-import ContactPage from './components/ContactPage';
+import AboutUs from './components/AboutUs';
+import Products from './components/Products';
+import Contact from './components/Contact';
+import Map from './components/Map'
 
 const App: React.FC = () => {
   return (
     <div className="App">
       <LandingPage />
-      <ContactPage />
+      <AboutUs />
+      <Products />
+      <Map/>
+      <Contact />
     </div>
   );
 };

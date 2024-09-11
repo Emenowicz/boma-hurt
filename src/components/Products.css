@@ -1,0 +1,51 @@
+/* Stylizacja dla sekcji produktów */
+.products {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* Stylizacja siatki produktów */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsywna siatka */
+    gap: 20px; /* Odstępy między elementami siatki */
+}
+
+/* Stylizacja pojedynczych elementów produktu */
+.product-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Delikatny cień */
+    text-align: center;
+    transition: transform 0.2s ease-in-out; /* Animacja na hover */
+}
+
+.product-item:hover {
+    transform: translateY(-5px); /* Podniesienie elementu przy najechaniu myszką */
+}
+
+/* Stylizacja obrazków w elementach produktów */
+.product-item img {
+    width: 200px; /* Stała szerokość obrazka */
+    height: 150px; /* Stała wysokość obrazka */
+    object-fit: cover; /* Dopasowanie obrazu bez zniekształcenia */
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Stylizacja tekstu produktu */
+.product-item h3 {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.product-item p {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+}

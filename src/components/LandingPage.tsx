@@ -3,11 +3,13 @@ import './LandingPage.css';
 
 const LandingPage: React.FC = () => {
   return (
-    <div className="landing-page">
-      <h1>Welcome to Boma Hurt</h1>
-      <p>Delivering fresh produce since 2011.</p>
-      <a href="#contact" className="cta-button">Contact Us</a>
-    </div>
+      <section className="hero">
+        <div className="hero-content">
+          <h1>Boma Hurt – Świeże produkty od 2011 roku</h1>
+          <p>Dostarczamy najlepsze owoce i warzywa hurtowo i detalicznie</p>
+          <a href="#products" className="cta-button">Sprawdź ofertę</a>
+        </div>
+      </section>
   );
 };
 

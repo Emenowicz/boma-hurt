@@ -1,12 +1,27 @@
-.landing-page {
+.hero {
+    background: url('../assets/hero-bg.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    margin: 50px;
+    color: white;
+  }
+  
+  .hero-content h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 10px;
   }
   
   .cta-button {
-    padding: 10px 20px;
-    background-color: green;
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: #28a745;
     color: white;
-    text-decoration: none;
     border-radius: 5px;
+    font-size: 18px;
+    text-decoration: none;
   }

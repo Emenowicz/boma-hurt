@@ -1,0 +1,46 @@
+/* Sekcja kontaktowa */
+.contact {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+.contact-details {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column; /* Ustawienie kolumnowe dla pól formularza */
+}
+
+.contact-form input, .contact-form textarea {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%; /* Ustawienie szerokości na 100% */
+  box-sizing: border-box; /* Upewnia się, że padding nie wpłynie na szerokość */
+}
+
+.contact-form textarea {
+  height: 150px; /* Większa wysokość dla textarea */
+}
+
+.contact-form button {
+  background-color: #28a745;
+  color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%; /* Szerokość przycisku na całą szerokość */
+  font-size: 16px;
+}
+
+.contact-form button:hover {
+  background-color: #218838;
+}
