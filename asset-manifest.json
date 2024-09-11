@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/boma-hurt/static/css/main.b18502f8.css",
-    "main.js": "/boma-hurt/static/js/main.18112d21.js",
+    "main.css": "/boma-hurt/static/css/main.bfaf7480.css",
+    "main.js": "/boma-hurt/static/js/main.68cf235b.js",
     "static/js/453.78ada2e7.chunk.js": "/boma-hurt/static/js/453.78ada2e7.chunk.js",
+    "static/media/apple.jpg": "/boma-hurt/static/media/apple.2c2b5e58cd345bfef8cb.jpg",
+    "static/media/orange.jpg": "/boma-hurt/static/media/orange.0c92fcbc388624cef8f8.jpg",
+    "static/media/hero-bg.jpg": "/boma-hurt/static/media/hero-bg.f2def15aee401e5d8166.jpg",
     "index.html": "/boma-hurt/index.html",
-    "main.b18502f8.css.map": "/boma-hurt/static/css/main.b18502f8.css.map",
-    "main.18112d21.js.map": "/boma-hurt/static/js/main.18112d21.js.map",
+    "main.bfaf7480.css.map": "/boma-hurt/static/css/main.bfaf7480.css.map",
+    "main.68cf235b.js.map": "/boma-hurt/static/js/main.68cf235b.js.map",
     "453.78ada2e7.chunk.js.map": "/boma-hurt/static/js/453.78ada2e7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b18502f8.css",
-    "static/js/main.18112d21.js"
+    "static/css/main.bfaf7480.css",
+    "static/js/main.68cf235b.js"
   ]
 }
