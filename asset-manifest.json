@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/boma-hurt/static/css/main.9a7167ae.css",
+    "main.css": "/boma-hurt/static/css/main.cc81d141.css",
     "main.js": "/boma-hurt/static/js/main.d64a54b2.js",
     "static/js/453.78ada2e7.chunk.js": "/boma-hurt/static/js/453.78ada2e7.chunk.js",
     "static/media/coffee.jpeg": "/boma-hurt/static/media/coffee.fddbb6c2db9dbae5dd6a.jpeg",
@@ -11,12 +11,12 @@
     "static/media/pasta.jpeg": "/boma-hurt/static/media/pasta.83ec5e3953de55046f2f.jpeg",
     "static/media/hero-bg.jpg": "/boma-hurt/static/media/hero-bg.f2def15aee401e5d8166.jpg",
     "index.html": "/boma-hurt/index.html",
-    "main.9a7167ae.css.map": "/boma-hurt/static/css/main.9a7167ae.css.map",
+    "main.cc81d141.css.map": "/boma-hurt/static/css/main.cc81d141.css.map",
     "main.d64a54b2.js.map": "/boma-hurt/static/js/main.d64a54b2.js.map",
     "453.78ada2e7.chunk.js.map": "/boma-hurt/static/js/453.78ada2e7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a7167ae.css",
+    "static/css/main.cc81d141.css",
     "static/js/main.d64a54b2.js"
   ]
 }
