@@ -11,7 +11,12 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* Responsywna siatka */
     gap: 30px; /* Odstępy między elementami siatki */
-    margin: auto;
+}
+/* Adjust grid styling for very small screens */
+@media (max-width: 400px) {
+    .product-grid {
+        grid-template-columns: 1fr; /* Single column layout */
+    }
 }
 
 /* Stylizacja pojedynczych elementów produktu */
