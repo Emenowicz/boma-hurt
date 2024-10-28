@@ -15,7 +15,7 @@
 
 .intro-text {
     font-size: 1.2em;
-    text-align: center;
+    text-align: center; /* Justify text */
     margin-bottom: 20px;
 }
 
@@ -28,6 +28,7 @@
 .text-section {
     padding: 15px;
     line-height: 1.6;
+    text-align: justify; /* Justify text */
 }
 
 strong {
