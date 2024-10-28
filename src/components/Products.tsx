@@ -9,12 +9,12 @@ import './Products.css';
 
 const Products: React.FC = () => {
   const items = [
-    { name: 'Słodycze', description: 'Turbo słodkie', img: sweets },
-    { name: 'Makarony, cukier, ryż, kasze', description: 'Produkty sypkie', img: pasta },
-    { name: 'Kawy, herbaty', description: 'Najlepsze na świecie', img: coffee },
-    { name: 'Puszki i słoiki', description: 'Na ciężkie czasy', img: jars },
-    { name: 'Soki, napoje, woda', description: 'Turbo słodkie ale w płynie', img: drinks },
-    { name: 'Owoce i warzywa', description: 'Najświeższe w okolicy', img: groceries },
+    { name: 'Owoce i warzywa', img: groceries },
+    { name: 'Soki, napoje, woda', img: drinks },
+    { name: 'Puszki i słoiki', img: jars },
+    { name: 'Makarony, cukier, ryż, kasze', img: pasta },
+    { name: 'Kawy, herbaty', img: coffee },
+    { name: 'Słodycze', img: sweets },
   ];
 
   return (
@@ -25,7 +25,6 @@ const Products: React.FC = () => {
           <div className="product-item" key={item.name}>
             <img src={item.img} alt={item.name} />
             <h3>{item.name}</h3>
-            <p>{item.description}</p>
           </div>
         ))}
       </div>

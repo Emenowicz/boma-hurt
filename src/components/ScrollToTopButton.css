@@ -1,0 +1,26 @@
+/* Scroll-to-top button styling */
+.scroll-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 10px 15px;
+    background-color: white; /* Matches the box section background color */
+    color: #b33a3a; /* Text color for the emoji */
+    border: 2px solid #ddd; /* Optional border for box-like styling */
+    border-radius: 50%;
+    font-size: 24px;
+    cursor: pointer;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    z-index: 1000;
+}
+
+.scroll-to-top.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.scroll-to-top:hover {
+    background-color: #f5f5f5; /* Slightly off-white for hover */
+}

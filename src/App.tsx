@@ -3,8 +3,8 @@ import './App.css';
 import LandingPage from './components/LandingPage';
 import AboutUs from './components/AboutUs';
 import Products from './components/Products';
-import Contact from './components/Contact';
-import Map from './components/Map'
+import ContactMap from "./components/ContactMap";
+import ScrollToTopButton from "./components/ScrollToTopButton";
 
 const App: React.FC = () => {
   return (
@@ -12,8 +12,8 @@ const App: React.FC = () => {
       <LandingPage />
       <AboutUs />
       <Products />
-      <Map/>
-      <Contact />
+      <ContactMap />
+      <ScrollToTopButton/>
     </div>
   );
 };
